@@ -140,9 +140,9 @@ Sample output:
 
 - **Prompt:** Implement a solution to the following problem:
 
-> Suppose you are given two sets of n points, one set *{p~1, p~2, . . . , p~n}* on the line *y = 0* and the other set *{q~1, q~2, . . . , q~n}* on the line *y = 1*. Create a set of *n* line segments by connecting each point *p~i* to the corresponding point *q~i*. Your goal is to develop an algorithm to determine how many pairs of these line segments intersect. Your algorithm should take the 2n points as input, and return the number of intersections. Using divide-and-conquer, you should be able to develop an algorithm that runs in *O(n log n)* time.
+> Suppose you are given two sets of n points, one set *{p_1, p_2, . . . , p_n}* on the line *y = 0* and the other set *{q_1, q_2, . . . , q_n}* on the line *y = 1*. Create a set of *n* line segments by connecting each point *p_i* to the corresponding point *q_i*. Your goal is to develop an algorithm to determine how many pairs of these line segments intersect. Your algorithm should take the *2n* points as input, and return the number of intersections. Using divide-and-conquer, you should be able to develop an algorithm that runs in *O(n log n)* time.
 
-- **Input:** Input starts with a positive integer, giving the number of instances that follow. For each instance, the first line will contain the number of pairs of points (*n*). The next *n* lines each contain the location *x* of a point *q~i* on the top line. Followed by the final *n* lines of the instance containing the location *x* of the corresponding point *p~i* on the bottom line.
+- **Input:** Input starts with a positive integer, giving the number of instances that follow. For each instance, the first line will contain the number of pairs of points (*n*). The next *n* lines each contain the location *x* of a point *q_i* on the top line. Followed by the final *n* lines of the instance containing the location *x* of the corresponding point *p_i* on the bottom line.
 
 - **Output:** Number of inversions. Each output line should be terminated by a newline.
 
